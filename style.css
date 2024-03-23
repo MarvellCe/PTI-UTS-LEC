@@ -1,0 +1,109 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  backdrop-filter: blur(2px);
+}
+
+body {
+  background-image: url('image/umn_lastbang.png');
+  background-size: cover;
+  background-color: white; 
+  color: white;
+  font-family: Segoe UI Variable Small Semibol;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.logout-icon {
+  float: left;
+  margin-right: 5px;
+  margin-top: 1px;
+  height: 30px;
+  width: 30px;
+}
+
+.modal-title,
+.modal-body label,
+.modal-footer .btn {
+  color: black;
+}
+
+#mahasiswaTable th,
+#mahasiswaTable td {
+  color: white;
+}
+
+#clock {
+  color: black;
+  font-size: 24px;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%); 
+}
+    
+#usernameDisplay {
+  font-size: 20px;
+}
+
+.navbar-text {
+  font-size: 20px;
+}
+
+#showEntries {
+  width: 60px;
+}
+
+#searchInput {
+  width: 200px;
+}
+
+.pagination-btn {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .search-box {
+  order: -1;
+  margin-bottom: 10px;
+  }
+
+  .hilang{
+    display: none;
+  }
+
+  #mahasiswaTable{
+    display: table;
+  }
+
+  tbody tr{
+  width: 200px;
+  height: 100px; 
+  box-shadow: inset 0 0 0 1px #fff;
+  }
+
+  
+  #mahasiswaTable td{
+    display: block;
+    padding: 0 0 10px 10px;
+    border: none;
+    
+  }
+
+  table{
+    border-collapse: separate; 
+   border-spacing: 0 20px;
+  
+  }
+  
+
+}
+
+.searchbungkus {
+  margin-left: auto;
+}   
+
