@@ -20,7 +20,7 @@ $(document).ready(function() {
   function tampilkanDataMahasiswa() {
     $('#tableBody').empty();
     mahasiswaData.forEach(function(mahasiswa) {
-      $('#tableBody').append('<tr><td>' + mahasiswa.nim + '</td><td>' + mahasiswa.nama + '</td><td>' + mahasiswa.alamat + '</td><td><button class="btn btn-primary btn-sm editBtn mr-1">Edit</button><button class="btn btn-primary btn-sm deleteBtn">Delete</button></td></tr>');
+      $('#tableBody').append('<tr><td>' + mahasiswa.nim + '</td><td>' + mahasiswa.nama + '</td><td>' + mahasiswa.alamat + '</td><td><button class="btn btn-primary btn-sm editBtn mr-1">Edit</button><button class="btn btn-danger btn-sm deleteBtn">Delete</button></td></tr>');
     });
   }
 
@@ -177,7 +177,7 @@ $(document).ready(function() {
   function tampilkanDataMahasiswa(data) {
     $('#tableBody').empty();
     data.forEach(function(mahasiswa) {
-      $('#tableBody').append('<tr ><td>' + mahasiswa.nim + '</td><td>' + mahasiswa.nama + '</td><td>' + mahasiswa.alamat + '</td><td><button class="btn btn-warning btn-sm editBtn mr-1">Edit</button><button class="btn btn-danger btn-sm deleteBtn">Delete</button></td></tr>');
+      $('#tableBody').append('<tr ><td>' + mahasiswa.nim + '</td><td>' + mahasiswa.nama + '</td><td>' + mahasiswa.alamat + '</td><td><button class="btn btn-primary btn-sm editBtn mr-1">Edit</button><button class="btn btn-danger btn-sm deleteBtn">Delete</button></td></tr>');
     });
   }
 
