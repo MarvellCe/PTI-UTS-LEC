@@ -72,6 +72,16 @@ body {
   margin-bottom: 10px;
   }
 
+  #clock {
+    color: white;
+    padding-top: 120px;
+    font-size: 24px;
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%); 
+  }
+
   .hilang{
     display: none;
   }
